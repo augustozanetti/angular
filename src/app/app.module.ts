@@ -9,6 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { CourseDetailsComponent } from './components/course-details/course-details.component';
 import { ListCoursesComponent } from './components/list-courses/list-courses.component';
 import { HomePage } from './pages/home-page/home-page';
+import { ListPostsComponent } from './components/list-posts/list-posts.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { HomePage } from './pages/home-page/home-page';
     HomeComponent,
     CourseDetailsComponent,
     ListCoursesComponent,
-    HomePage
+    HomePage,
+    ListPostsComponent
   ],
   imports: [
     BrowserModule,

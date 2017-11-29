@@ -7,6 +7,7 @@ import  {CourseService } from '../../services/course-service.service'
   templateUrl: './list-courses.component.html',
   providers: [CourseService]
 })
+
 export class ListCoursesComponent implements OnInit {
   courses: Course[];
   errorMessage: string;
